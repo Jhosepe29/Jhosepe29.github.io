@@ -511,7 +511,7 @@ function cargarComponentes(){
     divBotones.id="divBoton"
 
 
-    textoMensajeOpciones.textContent="seleccione la respuesta respuestaCorrecta"
+    textoMensajeOpciones.textContent="Seleccione la respuesta correcta"
     divBotones.append(opcionA);
     divBotones.append(opcionB);
     divBotones.append(opcionC);
@@ -554,7 +554,7 @@ function generaraleatorio(topeSuperio,topeIngerior){
  */
 function escorecataA(){
     if('A' === respuestaCorrecta){
-        alert("felicidade");
+        alert("Felicidades");;
 
         let puntosActuales = localStorage.getItem("puntosJugadores"+contador);
 
@@ -606,7 +606,7 @@ function escorecataA(){
  */
 function escorecataB(){
     if('B' === respuestaCorrecta){
-        alert("felicidade");
+        alert("Felicidades");
 
         let puntosActuales = localStorage.getItem("puntosJugadores"+contador);
 
@@ -657,7 +657,7 @@ function escorecataB(){
  */
 function escorecataC(){
     if('C' === respuestaCorrecta){
-        alert("felicidade");
+        alert("Felicidades");
 
         let puntosActuales = localStorage.getItem("puntosJugadores"+contador);
 
@@ -709,7 +709,7 @@ function escorecataC(){
  */
 function escorecataD(){
     if('D' === respuestaCorrecta){
-        alert("felicidade");
+        alert("Felicidades");
 
         let puntosActuales = localStorage.getItem("puntosJugadores"+contador);
 
